@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Condiment);
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+  text-transform: Uppercase;
+}
+
+p.author {
+  font-family: 'Condiment', cursive;
+  font-style: italic;
+}
+
+a:link {
+  font-size: 10px;
+}
+
+a:hover {
+  color: red;
+}
