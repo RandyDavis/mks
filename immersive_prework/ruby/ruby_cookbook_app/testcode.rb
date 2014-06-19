@@ -30,7 +30,5 @@ p mex_cuisine.recipes # [#Recipe:)x007fbc3b..... @title = "Veggie Burrito", @ing
 mex_cuisine.recipe_titles # Veggie Burrito
 mex_cuisine.recipe_ingredients # These are the ingredients for Veggie Burrito: ["tortilla", "bean"]
 
-puts burrito.print_recipe
-p burrito.ingredients
-
+burrito.print_recipe
 mex_cuisine.print_cookbook

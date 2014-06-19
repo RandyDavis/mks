@@ -34,7 +34,10 @@ class Cookbook
       puts ""
       puts "Recipe Name: #{x.title}"
       puts "Ingredients: #{x.ingredients.join(", ")}"
-      puts "Steps: #{x.steps.join(", ")}"
+      puts "Steps: "
+      x.steps.each_with_index do |step, index|
+          puts "#{index+1}. #{step}"
+      end
     end
   end
 end
@@ -53,6 +56,9 @@ class Recipe
   def print_recipe
       puts "Recipe Name: #{@title}"
       puts "Ingredients: #{@ingredients.join(", ")}"
-      puts "Preparation Steps: #{@steps.join(", ")}"
+      puts "Preparation Steps: "
+      @steps.each_with_index do |step, index|
+          puts "#{index+1}. #{step}"
+      end
   end
 end
